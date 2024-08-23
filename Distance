@@ -1,0 +1,13 @@
+import java.lang.Math;
+public class Distance {
+  public static void main(String args[]) {
+    double u=4;
+    double a=9;
+    double t=12;
+    double s=u*t + 0.5 * a * t * t;
+
+    System.out.println("The distance calculated is:"+s);
+   
+   
+  }
+}
