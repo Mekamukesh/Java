@@ -1,0 +1,15 @@
+import java.io.*;
+public class StudentDetails {
+  public static void main(String args[]) {
+    //int x=10;
+    //int y=25;
+    //int z=x+y;
+
+    System.out.println("\t\t\tStudent details");
+    System.out.println("Name: Mukesh\t\t\t\tRoll.no: 23K61A4742");
+    System.out.println("Father name:Srinivas\t\tAadhar.no: 374757808056");
+    System.out.println("Occupation: Bussiness\t\tD.O.B: 13/11/2005");
+    System.out.println("Parent mobile:9985522408\tNo.of subjects passed:10 ");
+  }
+}
+
