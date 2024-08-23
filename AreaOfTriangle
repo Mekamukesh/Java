@@ -1,0 +1,12 @@
+import java.lang.Math;
+public class AreaOfTriangle {
+  public static void main(String args[]) {
+    float b=3;
+    float h=9;
+   
+
+    System.out.println("Area of triangle is:"+((b*h)/2));
+   
+   
+  }
+}
