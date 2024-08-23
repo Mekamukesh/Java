@@ -1,0 +1,17 @@
+import java.lang.Math;
+public class ArithematicOperations {
+  public static void main(String args[]) {
+    float x=10;
+    int y=25;
+   
+
+    System.out.println("sum of "+x+" and "+y+" is "+(x+y));
+    System.out.println("Difference of "+x+" and "+y+" is "+(x-y));
+    System.out.println("multiplication of "+x+" and "+y+" is "+(x*y));
+    System.out.println("Division of "+x+" and "+y+" is "+(x/y));
+    System.out.println("square root of "+x+" is "+Math.sqrt(x));
+    System.out.println("square root of "+y+" is "+Math.sqrt(y));
+    System.out.println("Modulus of "+x+" and "+y+" is "+(x%y));
+   
+  }
+}
