@@ -1,0 +1,11 @@
+import java.io.*;
+public class Greetings extends Object{
+    private String greetings =" Hello world ";
+    public void greet(){
+        System.out.println(greetings);
+    }
+    public static void main(String args[]) throws IOException{
+        Greetings g=new Greetings();
+        g.greet();
+    }
+}
