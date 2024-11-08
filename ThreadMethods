@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class Main extends Thread{
+    public static void main(String args[])
+    {
+        Main td1=new Main();
+        Main td2=new Main();
+        td1.start();
+        td2.start();
+        String str=td2.getName();
+        System.out.println("Thread2 name is: "+str);
+    }
+    public void run(){
+        System.out.println("Thread is created and running");
+    }
+}
